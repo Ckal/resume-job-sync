@@ -1,0 +1,18 @@
+name: resume-job-sync
+type: gradio-space
+sdk: streamlit
+
+metadata:
+  space_id: Chris4K/resume-job-sync
+  original_url: https://huggingface.co/spaces/Chris4K/resume-job-sync
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
